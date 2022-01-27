@@ -590,6 +590,9 @@ Section asymétrique
         width: 200px;
         margin: 10px auto 30px;
     }
+    .form-groupe .button-sub {
+        margin: 0 auto;
+    }
 }
 
 /* section contact */ 
@@ -646,7 +649,7 @@ textarea{
 .form-groupe .button-sub {
     display: block;
     width: auto;
-    padding: 15px 60px;
+    padding: 10px 40px;
     border: 3px solid rgb(144, 144, 144);
     border-radius: 9999px;
     background-image: linear-gradient(to right, transparent 50%, rgb(65,65,65) 50%, rgb(134,134,134));
@@ -669,6 +672,15 @@ textarea{
     }
     .container-form{
         padding-left: 0;
+    }
+}
+@media screen and (max-width: 420px) {
+
+    .form-groupe .button-sub {
+        margin: 0 auto;
+    }
+    textarea{
+        height: 300px;
     }
 }
 
