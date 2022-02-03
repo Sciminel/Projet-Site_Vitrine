@@ -80,7 +80,7 @@ Un bout de code qui permet de faire une petite animation d'une d'une underline
     Media Query (responsive) nav bar
 */
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 835px){
     .logo-menu{
         display: block;
     }
